@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feed</title>
+  <link rel="stylesheet" href="styles-feed.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <!-- Reemplaza esto con la imagen de tu logo -->
+        <img src="assets/logo (2).png" alt="Logo de la App" style="width: 150px; height: auto;">
+      </div>
+    <nav>
+      <button onclick="logout()">Cerrar Sesión</button>
+    </nav>
+  </header>
+  
+  <main class="feed-container">
+    <!-- Publicación falsa 1 -->
+    <div class="post">
+      <div class="post-header">
+        <img src="assets/rosado.png" alt="Avatar Usuario" class="avatar">
+        <p><strong>Karen Rozo</strong> publicó:</p>
+      </div>
+      <p class="post-content">¡WOW! Esta aplicacion es genia. 😊</p>
+    </div>
+    
+    <!-- Publicación falsa 2 -->
+    <div class="post">
+      <div class="post-header">
+        <img src="assets/casco.png" alt="Avatar Usuario" class="avatar">
+        <p><strong>Sebastian Garcia</strong> publicó:</p>
+      </div>
+      <p class="post-content">¿Alguien sabe cuándo será la próxima actualización?</p>
+    </div>
+
+    <!-- Publicación falsa 3 -->
+    <div class="post">
+        <div class="post-header">
+          <img src="assets/gato.png" alt="Avatar Usuario" class="avatar">
+          <p><strong>Tania Garcia</strong> publicó:</p>
+        </div>
+        <p class="post-content">¿Cuando empieza la semana de parciales?</p>
+      </div>
+
+    <!-- Publicación falsa 4 -->
+    <div class="post">
+        <div class="post-header">
+          <img src="assets/guitarra-electrica.png" alt="Avatar Usuario" class="avatar">
+          <p><strong>Dilan Silva</strong> publicó:</p>
+        </div>
+        <p class="post-content">El profe de Simulacion estara ausente el dia de mañana.</p>
+      </div>
+    
+    <!-- Más publicaciones... -->
+  </main>
+  
+  <footer>
+    <p>© 2024 Mi App. Todos los derechos reservados.</p>
+  </footer>
+  
+  <script>
+    function logout() {
+      alert("Sesión cerrada.");
+      window.location.href = "index.html"; // Redirigir al login
+    }
+  </script>
+</body>
+</html>
